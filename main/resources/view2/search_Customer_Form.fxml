@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="585.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpage.SearchCustomer">
+   <children>
+      <Label layoutY="-1.0" prefHeight="62.0" prefWidth="600.0" style="-fx-background-color: black;" text="           Search Customer Form" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="80.0" prefHeight="39.0" prefWidth="226.0" text="Enter Customer ID :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtId" layoutX="306.0" layoutY="82.0" onAction="#txtIdOnAction" prefHeight="32.0" prefWidth="175.0" style="-fx-background-color: white;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Line endX="456.33331298828125" layoutX="143.0" layoutY="143.0" startX="-143.0" />
+      <Label layoutX="42.0" layoutY="304.0" prefHeight="39.0" prefWidth="226.0" text="Customer Number :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="234.0" prefHeight="39.0" prefWidth="226.0" text="Customer Address :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="169.0" prefHeight="39.0" prefWidth="226.0" text="Customer Name    :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNumber" layoutX="306.0" layoutY="304.0" prefHeight="32.0" prefWidth="175.0" style="-fx-background-color: white;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtAddress" layoutX="306.0" layoutY="234.0" prefHeight="32.0" prefWidth="175.0" style="-fx-background-color: white;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtName" layoutX="306.0" layoutY="169.0" prefHeight="32.0" prefWidth="175.0" style="-fx-background-color: white;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
